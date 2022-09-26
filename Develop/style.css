@@ -12,41 +12,47 @@ body,
   padding: 0;
 }
 
+h1 {
+  font-size: 250%;
+}
+
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #919e86;
 }
 
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  border-style: double;
 }
 
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: #262923;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
+  background-color: #abba9f;
+  border-radius: 1px;
+  border-width: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: #262923;
   font-size: 18px;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 30px 40px;
+  margin: auto;
+  padding: 50px 50px;
+  border-style: double;
+  text-align: center;
 }
 
 .card-header::after {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #919e86;
   height: 2px;
 }
 
@@ -62,7 +68,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #919e86;
   height: 2px;
 }
 
@@ -74,8 +80,9 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #737d6a;
   border-radius: 25px;
+  border-style: double;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
@@ -97,25 +104,28 @@ button[disabled] {
   float: right;
 }
 
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   border: none;
+  border-style: double;
   display: block;
   width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 80px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed #919e86;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  background-color: #919e86;
 }
 
 @media (max-width: 690px) {
